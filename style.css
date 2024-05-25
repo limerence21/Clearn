@@ -27,3 +27,20 @@
 }
 /* Navbar End */
 
+/* Main Section Start */
+#main-section {
+    font-family: "Ubuntu", sans-serif;
+    background-image: url(./img/main-section-bg.jpg);
+    height: calc(100vh - 100px);
+    object-fit: cover;
+}
+
+.main-container {
+    margin-bottom: 200px;
+}
+
+.btn {
+    font-family: "Ubuntu";
+}
+/* Main Section End */
+
