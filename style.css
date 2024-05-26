@@ -59,6 +59,10 @@
 #about{
     margin-top: 48px;
 }
+
+.accordion {
+    margin-top: 24px;
+}
 /* About Section End */
 
 /* Media Queries Responsive */
@@ -79,4 +83,10 @@
     }
     /* Main Section End */
 
+
+    /* About Section Start */
+    .about-text p{
+        font-size: 12px;
+    }
+    /* About Section End */
 }
