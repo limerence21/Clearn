@@ -68,9 +68,14 @@
 /* Media Queries Responsive */
 @media only screen and (width <= 767px){
     /* Main Section Start */
+    .carousel-item{
+        height: 100vh;
+        min-height: 300px;
+    }
+
     .carousel-caption {
         bottom: 125px;
-        margin-bottom: 250px;
+        margin-bottom: 150px;
     }
 
     .carousel-caption h5{
