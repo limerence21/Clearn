@@ -96,6 +96,11 @@
 .curriculum-img img {
     width: 100%;
 }
+
+.curr-img {
+    cursor: pointer;
+    position: relative;
+}
 /* Curriculum Section End */
 
 /* Media Queries Responsive */
