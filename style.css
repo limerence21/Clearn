@@ -66,41 +66,7 @@
 /* About Section End */
 
 /* Curriculum Section Start */
-#curriculum {
-    margin-top: 48px;
-}
 
-.curriculum::before {
-    content: '';
-}
-
-.curriculum-img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    "curriculum-1 curriculum-2"
-    "curriculum-3 curriculum-3";
-    gap: 12px;
-}
-
-#curriculum1 {
-    grid-area: curriculum-1;
-}
-#curriculum2 {
-    grid-area: curriculum-2;
-}
-#curriculum3 {
-    grid-area: curriculum-3;
-}
-
-.curriculum-img img {
-    width: 100%;
-}
-
-.curr-img {
-    cursor: pointer;
-    position: relative;
-}
 /* Curriculum Section End */
 
 /* Media Queries Responsive */
