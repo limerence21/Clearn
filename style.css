@@ -3,6 +3,12 @@
 *{
     font-family: "Ubuntu", sans-serif;
 }
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 /* Navbar Start */
 .nav-link {
     letter-spacing: 0.2em;
@@ -75,6 +81,17 @@ i {
     display: flex;
     align-items: center;
     justify-content: stretch;
+}
+
+/* Footer Section */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Media Queries Responsive */
