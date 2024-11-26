@@ -19,6 +19,12 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- CDN Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Navbar Start -->
@@ -346,11 +352,11 @@
             <div class="social-icons">
               <a href="#"><i class="bx bxl-facebook-square bx-lg"></i></a>
               <a href="#"><i class="bx bxl-instagram bx-lg"></i></a>
-              <a href="#"><i class="bx bxl-gmail bx-lg"></i></a>
+              <a href="#"><i class="bx bxl-whatsapp bx-lg"></i></a>
             </div>
           </div>
           <div class="col-lg-8 col-md-12">
-            <form id="contact-form">
+            <form id="contact-form" onsubmit="onFormSubmit(event)">
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" required />
@@ -385,17 +391,11 @@
     <!-- Footer Section End -->
 
     <!-- Link JS -->
-    <script src="./script.js"></script>
+    <script src="./main.js"></script>
     <!-- CDN Bootstrap5 JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <!-- CDN Jquery -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
   </body>
