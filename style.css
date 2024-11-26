@@ -65,9 +65,17 @@
 }
 /* About Section End */
 
-/* Curriculum Section Start */
+/* Box Icon */
+i {
+    color: black;
+}
 
-/* Curriculum Section End */
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
 
 /* Media Queries Responsive */
 @media only screen and (width <= 767px){

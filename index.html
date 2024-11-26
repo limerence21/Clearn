@@ -13,6 +13,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <!-- CDN Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar Start -->
@@ -44,7 +49,7 @@
               <a class="nav-link text-light" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contact</a>
+              <a class="nav-link text-light" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -329,6 +334,48 @@
       </div>
     </section>
     <!-- Curriculum Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact-section my-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <h2>Contact</h2>
+            <p>Our Contact and Medias</p>
+            <div class="social-icons">
+              <a href="#"><i class="bx bxl-facebook-square bx-lg"></i></a>
+              <a href="#"><i class="bx bxl-instagram bx-lg"></i></a>
+              <a href="#"><i class="bx bxl-gmail bx-lg"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12">
+            <form id="contact-form">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" required />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
 
     <!-- Link JS -->
     <script src="./script.js"></script>
